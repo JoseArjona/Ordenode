@@ -1,0 +1,27 @@
+{
+  "name": "ordenode",
+  "version": "1.0.0",
+  "description": "Programa para ordenar archivos en carpetas por extensiones. Para windows.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ordenamiento",
+    "ordenode",
+    "archivos",
+    "nodejs",
+    "cli",
+    "windows"
+  ],
+  "author": "JoseArjona",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
