@@ -1,6 +1,6 @@
 /* import path from 'node:path' */
 import readline from 'node:readline'
-import { ordenDocs, ordenVideo, ordenImage, ordenPrograms, ordenSlides, ordenFonts } from './utils/orderByType.js'
+import { organize } from './utils/orderByType.js'
 
 console.log('Bienvenido a ORDENODE')
 console.log('Pasa la ruta de la carpeta que deseas ordenar. Importante el programa no funciona en carpetas. \nPor motivos técnicos las carpetas creadas tendrán el nombre de Folder-byOrdeNode, puedes retirar el nombre a posterior')
@@ -15,12 +15,7 @@ reader.question('Introduce la ruta de la carpeta que deseas ordenar: ', (ruta) =
 
   reader.question('¿Deseas continuar con el ordenamiento? (S/N): ', (confirm) => {
     if (confirm.toLowerCase() === 's') {
-      ordenDocs(ruta)
-      ordenImage(ruta)
-      ordenVideo(ruta)
-      ordenFonts(ruta)
-      ordenPrograms(ruta)
-      ordenSlides(ruta)
+      organize(ruta)
       reader.close()
     } else {
       console.log('Ordenamiento cancelado.')

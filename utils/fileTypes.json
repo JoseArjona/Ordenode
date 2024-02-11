@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Documentos",
+    "extensions": [
+      ".md",
+      ".docx",
+      ".pdf",
+      ".txt",
+      ".doc"
+    ]
+  },
+  {
+    "name": "Imágenes",
+    "extensions": [
+      ".png",
+      ".jpg",
+      ".jpeg",
+      ".gif",
+      ".svg",
+      ".webp",
+      ".avif"
+    ]
+  },
+  {
+    "name": "Videos",
+    "extensions": [
+      ".mp3",
+      ".mp4",
+      ".mov",
+      ".avi",
+      ".flv",
+      ".wmv",
+      ".mkv",
+      ".webm",
+      ".m4v",
+      ".mpeg",
+      ".m4a"
+    ]
+  },
+  {
+    "name": "Programas",
+    "extensions": [
+      ".exe",
+      ".msi",
+      ".pkg",
+      ".deb",
+      ".dmg",
+      ".iso",
+      ".apk",
+      ".app",
+      ".jar",
+      ".war",
+      ".zip",
+      ".rar",
+      ".7z",
+      ".tar",
+      ".gz",
+      ".bz2",
+      ".xz",
+      ".zst",
+      ".lz4",
+      ".appinstaller"
+    ]
+  },
+  {
+    "name": "Fuentes",
+    "extensions": [
+      ".ttf",
+      ".otf",
+      ".woff",
+      ".woff2",
+      ".eot",
+      ".sfnt",
+      ".svg",
+      ".ttc",
+      ".fnt",
+      ".fon",
+      ".otc",
+      ".bdf",
+      ".psf",
+      ".pfa",
+      ".pfb",
+      ".pfr",
+      ".pfs",
+      ".pfv"
+    ]
+  },
+  {
+    "name": "Diapositivas",
+    "extensions": [
+      ".pptx",
+      ".ppt",
+      ".potx",
+      ".pot",
+      ".ppsx",
+      ".pps",
+      ".pptm",
+      ".pptm",
+      ".odp",
+      ".ods",
+      ".odt",
+      ".key"
+    ]
+  },
+  {
+    "name": "Libros",
+    "extensions": [
+      ".epub",
+      ".mobi",
+      ".azw",
+      ".azw3",
+      ".azw4",
+      ".fb2",
+      ".lit",
+      ".lrf",
+      ".lrc",
+      ".lsd",
+      ".lsd",
+      ".lrf",
+      ".lrc",
+      ".lsd"
+    ]
+  }
+]
