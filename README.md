@@ -25,7 +25,7 @@ node index.js
 ```
 
 > [!WARNING]
-> Usa el código con precaución. Ya que aun faltan por pulir ciertos detalles.
+> Usa el código con precaución. Ya que aun faltan pulir ciertos detalles.
 
 Sigue las instrucciones del programa:
 
