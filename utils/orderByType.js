@@ -18,8 +18,7 @@ export const organize = async (dirname, extraName) => {
       if (files.length === 0) return console.log('')
       const folderName = `${type.name}-${extraName}`
       const folderPath = path.join(dirname, folderName)
-      const response = await createFolder(folderPath)
-      if (response === 'Ya existe') return console.log('Carpeta ya existente')
+      await createFolder(folderPath)
       await movedFiles(dirname, files, folderPath)
     } catch (error) {
       console.error(error.message)

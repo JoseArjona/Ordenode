@@ -6,7 +6,29 @@
       ".docx",
       ".pdf",
       ".txt",
-      ".doc"
+      ".doc",
+      ".docs"
+    ]
+  },
+  {
+    "name": "Hojas de calculo",
+    "extensions": [
+      ".xls",
+      ".xlsx",
+      ".xlsm",
+      ".xlsb",
+      ".ods",
+      ".csv",
+      ".tsv"
+    ]
+  },
+  {
+    "name": "Webs",
+    "extensions": [
+      ".html",
+      ".htm",
+      ".xhtml",
+      ".xml"
     ]
   },
   {

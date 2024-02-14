@@ -35,8 +35,7 @@ export const readFiles = async (dir, extensions) => {
 export const createFolder = async (fileName) => {
   try {
     if (!fileName) throw new Error('Establece correctamente los parámetros.')
-    // if the folder was created return
-    if (fs.existsSync(fileName)) return 'Ya existe'
+    if (fs.existsSync(fileName)) console.log('Ya existe la carpeta')
     await fs.promises.mkdir(fileName)
   } catch (error) {
     console.error(error.message)
